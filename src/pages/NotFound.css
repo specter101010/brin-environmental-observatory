@@ -1,0 +1,119 @@
+
+.not-found {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+    background: #f8fafc;
+    color: #172033;
+  }
+  
+  .not-found-content {
+    width: 100%;
+    max-width: 520px;
+    text-align: center;
+  }
+  
+  .not-found-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 24px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    background: #eaf0f8;
+    color: #42658c;
+  }
+  
+  .not-found-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #64748b;
+  }
+  
+  .not-found h1 {
+    margin: 12px 0;
+    font-size: clamp(90px, 18vw, 140px);
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -8px;
+    color: #233b59;
+  }
+  
+  .not-found h2 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .not-found p {
+    max-width: 420px;
+    margin: 0 auto;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .not-found-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+  }
+  
+  .not-found-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-height: 44px;
+    padding: 0 18px;
+    border-radius: 9px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .not-found-primary {
+    border: 1px solid #233b59;
+    background: #233b59;
+    color: white;
+  }
+  
+  .not-found-primary:hover {
+    background: #172b43;
+  }
+  
+  .not-found-secondary {
+    border: 1px solid #dbe2ea;
+    background: white;
+    color: #334155;
+  }
+  
+  .not-found-secondary:hover {
+    background: #f1f5f9;
+  }
+  
+  .not-found-footer {
+    margin-top: 65px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    color: #94a3b8;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  
+  @media (max-width: 480px) {
+    .not-found-actions {
+      flex-direction: column;
+    }
+  
+    .not-found-actions button {
+      width: 100%;
+    }
+  }
+  

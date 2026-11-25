@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Aditya Putra Perdana Prasetyo, S.Kom., M.T.",
+    "role": "Dosen Pembimbing",
+    "image": "assets/aditya.jpg"
+  },
+  {
+    "name": "Rahmat Fadli Isnanto, S.SI., M.Sc",
+    "role": "Dosen Pembimbing",
+    "image": "assets/rahmad fadli.jpeg"
+  },
+  {
+    "name": "Ahmad Zakasi,S.T.,M.T.",
+    "role": "Dosen Pembimbing",
+    "image": "assets/zarkasi.jfif"
+  },
+  {
+    "name": "Kemahyanto Exaudi, S.Kom., M.T.",
+    "role": "Dosen Pembimbing",
+    "image": "assets/kemahyanto.jpg"
+  },
+  {
+    "name": "Abdurahman, S.Kom., M.Han",
+    "role": "Dosen Pembimbing",
+    "image": "assets/abdurahman.jpg"
+  },
+  {
+    "name": "Ricy Firnando, M.Kom.",
+    "role": "Dosen Pembimbing",
+    "image": "assets/richi.jpg"
+  },
+  {
+    "name": "Yasyir Masy'al",
+    "role": "Frontend Developer",
+    "image": "assets/yasyir.png"
+  }
+]
